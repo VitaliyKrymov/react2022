@@ -49,9 +49,9 @@ function App() {
             </p>
 
             {
-                simpsons.map((item,index) =>
+                simpsons.map(item =>
                     <Simpson
-                        key={index}
+                        key={item.id}
                         name={item.name}
                         sername={item.surname}
                         age={item.age}
